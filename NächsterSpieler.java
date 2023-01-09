@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
  */
 public class NächsterSpieler extends Actor implements BlockTyp
 {
-    private Bank bank;
+    private Spielverwaltung spielverwaltung;
     private BlockDelegate blockDelegate;
     private String dateiname = "nächsterSpielerKnopf";
     private boolean spielBegonnen = false;
@@ -16,25 +16,25 @@ public class NächsterSpieler extends Actor implements BlockTyp
     /**
      * Konstruktor für Objekte der Klasse NächsterSpieler
      */
-    public NächsterSpieler(Bank bank){
-        this.bank = bank;
+    public NächsterSpieler(Spielverwaltung spielverwaltung){
+        this.spielverwaltung = spielverwaltung;
         blockDelegate = new BlockDelegate(this,dateiname);
         block();
     }
     
     /**
-     * Benachrichtigt die Bank darüber, ob ein das NächsterSpieler-Objekt angeklickt wurde
+     * Benachrichtigt die Spielverwaltung darüber, ob ein das NächsterSpieler-Objekt angeklickt wurde
      */
     public void act() 
     {
         if(!spielBegonnen){   
-            bank.frageNachSpielernamen();
+            spielverwaltung.frageNachSpielernamen();
             spielBegonnen = true;
-            bank.updateSpieler();
+            spielverwaltung.updateSpieler();
         }
         
         if (Greenfoot.mouseClicked(this)&&!istGeblockt()) {
-            bank.clicked(this);
+            spielverwaltung.clicked(this);
         }  
     }
     

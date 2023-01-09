@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Bank
+comment0.text=\n\ Write\ a\ description\ of\ class\ Bank\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=mw
+comment1.target=Bank(MyWorld)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Bank\n
+comment2.params=
+comment2.target=void\ frageNachSpielernamen()
+comment3.params=obj
+comment3.target=void\ clicked(java.lang.Object)
+comment3.text=\n\ Pr\u00FCft,\ ob\ ein\ Objekt\ angeklickt\ wurde\ und\ ruft\ die\ entsprechende\ Methode\ auf\n
+comment4.params=
+comment4.target=void\ w\u00FCrfeln()
+comment5.params=
+comment5.target=void\ updateSpieler()
+comment6.params=
+comment6.target=int\ getAugenzahl()
+numComments=7
