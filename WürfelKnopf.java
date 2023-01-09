@@ -8,13 +8,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
  */
 public class WürfelKnopf extends Actor
 {
-    private Bank bank;
+    private Spielverwaltung spielverwaltung;
     private String dateiname = "würfelKnopf";
     private BlockDelegate blockDelegate;
     
-    public WürfelKnopf(Bank bank){
+    public WürfelKnopf(Spielverwaltung spielverwaltung){
         this.blockDelegate = new BlockDelegate(this,dateiname);
-        this.bank = bank;
+        this.spielverwaltung = spielverwaltung;
         block();
     }
     
@@ -25,7 +25,7 @@ public class WürfelKnopf extends Actor
     public void act() 
     {
         if(Greenfoot.mouseClicked(this)) {
-            bank.clicked(this);
+            spielverwaltung.clicked(this);
         }
     }
     

@@ -8,12 +8,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
  */
 public class Bezahlen extends Actor
 {
-    private Bank bank;
+    private Spielverwaltung spielverwaltung;
     private BlockDelegate blockDelegate;
     private String dateiname = "bezahlen";
     
-    public Bezahlen(Bank bank){
-        this.bank = bank;
+    public Bezahlen(Spielverwaltung spielverwaltung){
+        this.spielverwaltung = spielverwaltung;
         this.blockDelegate = new BlockDelegate(this, dateiname);
         block();
     }
@@ -25,7 +25,7 @@ public class Bezahlen extends Actor
     public void act()
     {
         if(Greenfoot.mouseClicked(this)) {
-            bank.würfeln();
+            spielverwaltung.würfeln();
         }
         updateBild();
     }

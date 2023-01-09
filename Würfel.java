@@ -10,7 +10,7 @@ public class Würfel extends Actor
 {
     private int augenzahl = 1;
     private String dateiname = "würfel";
-    private Bank bank;
+    private Spielverwaltung spielverwaltung;
     
     /**
      * Act - tut, was auch immer Würfel tun will. Diese Methode wird aufgerufen, 

@@ -1,11 +1,11 @@
 import greenfoot.*;
 /**
- * Write a description of class Bank here.
+ * Write a description of class Spielverwaltung here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Bank  
+public class Spielverwaltung  
 {
     // instance variables - replace the example below with your own
     private Würfel wf[];
@@ -22,9 +22,9 @@ public class Bank
     private Spielfigur currentSpieler;
 
     /**
-     * Constructor for objects of class Bank
+     * Constructor for objects of class Spielverwaltung
      */
-    public Bank(MyWorld mw)
+    public Spielverwaltung(MyWorld mw)
     {
         this.mw = mw;
         wf = new Würfel[2];

@@ -27,6 +27,6 @@ public class MyWorld extends World
      */
     private void prepare()
     {
-        new Bank(this);
+        new Spielverwaltung(this);
     }
 }

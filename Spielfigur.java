@@ -9,17 +9,19 @@ import java.util.concurrent.TimeUnit;
  */
 public class Spielfigur extends Actor  
 {
-    private Bank bank;
+    private Spielverwaltung spielverwaltung;
     private int aktpos = 1;
     private String name;
     private int kontostand = 30000;
+    this.createArray();
+
     
     /**
      * Konstruktor für Objekte der Klasse Spielfigur
      */
-    public Spielfigur(Bank bank)
+    public Spielfigur(Spielverwaltung spielverwaltung)
     {
-        this.bank = bank;
+        this.spielverwaltung = spielverwaltung;
     }
     
     public int aktpos(){
@@ -42,9 +44,48 @@ public class Spielfigur extends Actor
         return kontostand;
     }
     
+    private void createArray(){
+        private int [] [] posArr = new int [40] [2];
+            posArr [0] [0] = 35;
+            posArr [0] [1] = 710;
+            posArr [1] [0] = 35;
+            posArr [1] [1] = 625;
+            posArr [2] [0] = 35;
+            posArr [2] [1] = 563;
+            posArr [3] [0] = 35;
+            posArr [3] [1] = 501;
+            posArr [4] [1] = 439;
+            posArr [4] [0] = 35;
+            posArr [5] [1] = 377;
+            posArr [5] [0] = 35;
+            posArr [6] [1] = 315;
+            posArr [6] [0] = 35;
+            posArr [7] [1] = 253;
+            posArr [7] [0] = 35;
+            posArr [8] [1] = 191;
+            posArr [8] [0] = 35;
+            posArr [9] [1] = 625;
+            posArr [9] [0] = 35;
+            posArr [10] [1] = ;
+            posArr [10] [0] = 35;
+            posArr [11] [1] = 563;
+            posArr [11] [0] = 35;
+            posArr [12] [1] = 501;
+            posArr [12] [0] = 35;
+            posArr [13] [1] = 439;
+            posArr [13] [0] = 35;
+            posArr [14] [1] = 377;
+            posArr [14] [0] = 35;
+            posArr [15] [1] = 315;
+            posArr [15] [0] = 35;
+            posArr [16] [1] = 253;
+    
     public void setPos(int newPos){
         aktpos = newPos;
-        switch(aktpos){
+    
+        
+
+        /**switch(aktpos){
             case 1:
                 setLocation(35,710);
                 break;
@@ -175,8 +216,8 @@ public class Spielfigur extends Actor
                 setLocation(130,711);
                 break;
         }
+    **/
     }
-    
     public int getPos(){
         return aktpos;
     }

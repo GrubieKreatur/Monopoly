@@ -8,12 +8,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
  */
 public class Bauen extends Actor
 {
-    private Bank bank;
+    private Spielverwaltung spielverwaltung;
     private BlockDelegate blockDelegate;
     private String dateiname = "bauen";
     
-    public Bauen(Bank bank){
-        this.bank = bank;
+    public Bauen(Spielverwaltung spielverwaltung){
+        this.spielverwaltung = spielverwaltung;
         this.blockDelegate = new BlockDelegate(this, dateiname);
         block();
     }
@@ -25,7 +25,7 @@ public class Bauen extends Actor
     public void act()
     {
         if(Greenfoot.mouseClicked(this)) {
-            bank.würfeln();
+            spielverwaltung.würfeln();
         }
         updateBild();
     }

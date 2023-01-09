@@ -8,14 +8,14 @@ import greenfoot.*;
 public class SpielerAnzeige extends Actor
 {
     // Attribute -  ersetzen Sie das Beispiel hier mit ihren eigenen Attributen
-    private Bank bank;
+    private Spielverwaltung spielverwaltung;
 
     /**
      * Konstruktor für Objekte der Klasse SpielerAnzeige
      */
-    public SpielerAnzeige(Bank bank)
+    public SpielerAnzeige(Spielverwaltung spielverwaltung)
     {
-        this.bank = bank;
+        this.spielverwaltung = spielverwaltung;
     }
     
     public void updateSpieler(String name){
