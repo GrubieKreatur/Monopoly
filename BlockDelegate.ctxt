@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=BlockDelegate
+comment0.text=\r\n\ Die\ Klasse\ BlockierbarerActorDelegate\ \u00FCbernimmt\ die\ Aufgabe\ des\ Blockierens\ eines\ Knopfs.\r\n\ Der\ Knopf\ selbst\ ist\ der\ Delegator.\r\n\ \r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=a\ dn
+comment1.target=BlockDelegate(greenfoot.Actor,\ java.lang.String)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ BlockierbarerActorDelegate\r\n
+comment2.params=
+comment2.target=void\ updateBild()
+comment3.params=
+comment3.target=void\ block()
+comment3.text=\r\n\ Blockiert\ Kn\u00F6pfe\r\n
+comment4.params=
+comment4.target=void\ unblock()
+comment4.text=\r\n\ Entblockt\ Kn\u00F6pfe\r\n
+comment5.params=
+comment5.target=boolean\ istGeblockt()
+comment5.text=\r\n\ Bestimmt,\ ob\ ein\ Objekt\ geblockt\ ist.\r\n\ @return\ Geblocktheit\ eines\ Objektes.\r\n
+numComments=6

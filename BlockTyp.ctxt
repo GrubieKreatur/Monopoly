@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BlockTyp
+comment0.text=\r\n\ Gemeinsamer\ Datentyp\ aller\ Delegatoren\ und\ Delegierten\ f\u00FCr\ einen\ blockierbaren\ Actor.\r\n\ \r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=
+comment1.target=void\ block()
+comment2.params=
+comment2.target=void\ unblock()
+comment3.params=
+comment3.target=boolean\ istGeblockt()
+numComments=4

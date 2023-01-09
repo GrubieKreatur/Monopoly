@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SpielerAnzeige
+comment0.text=\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ SpielerAnzeige.\n\ \n\ @author\ (Ihr\ Name)\ \n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
+comment1.params=bank
+comment1.target=SpielerAnzeige(Bank)
+comment1.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ SpielerAnzeige\n
+comment2.params=name
+comment2.target=void\ updateSpieler(java.lang.String)
+numComments=3

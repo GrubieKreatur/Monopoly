@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Kaufen
+comment0.text=\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ Kaufen.\n\ \n\ @author\ (Ihr\ Name)\ \n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
+comment1.params=bank
+comment1.target=Kaufen(Bank)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ tut,\ was\ auch\ immer\ Kaufen\ tun\ will.\ Diese\ Methode\ wird\ aufgerufen,\ \n\ sobald\ der\ 'Act'\ oder\ 'Run'\ Button\ in\ der\ Umgebung\ angeklickt\ werden.\ \n
+comment3.params=
+comment3.target=void\ updateBild()
+comment4.params=
+comment4.target=void\ block()
+comment4.text=\n\ Delegiert\ das\ Blockieren\ des\ kaufen-Knopfes\ an\ die\ Klasse\ BlockDelegate\n
+comment5.params=
+comment5.target=void\ unblock()
+comment5.text=\n\ Delegiert\ das\ Entblockieren\ des\ Bauuen-Knopfes\ an\ die\ Klasse\ BlockDelegate\n
+comment6.params=
+comment6.target=boolean\ istGeblockt()
+comment6.text=\n\ Bestimmt,\ ob\ das\ kaufen-Objekt\ geblockt\ ist.\n\ @return\ Geblocktheit\ des\ W\u00FCrfelKnopf-Objektes\n
+numComments=7
