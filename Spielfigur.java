@@ -114,6 +114,7 @@ public class Spielfigur extends Actor
             posArr [15] [0] = 436;
             posArr [16] [1] = 40;
             posArr [16] [0] = 498;
+
     
     public void setPos(int newPos){
         aktpos = newPos;
