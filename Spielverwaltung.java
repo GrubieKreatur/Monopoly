@@ -62,8 +62,9 @@ public class Spielverwaltung
             würfeln();
             //wk.block();
             currentSpieler.setPos(currentSpieler.getPos() + getAugenzahl());
-            if(currentSpieler.getPos()>40){
-                currentSpieler.setPos(currentSpieler.getPos()-40);
+            System.out.println(currentSpieler.getPos());
+            if(currentSpieler.getPos()>39){
+                currentSpieler.setPos(currentSpieler.getPos()-39);
             }
         }
     }

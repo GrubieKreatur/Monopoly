@@ -10,11 +10,10 @@ import java.util.concurrent.TimeUnit;
 public class Spielfigur extends Actor  
 {
     private Spielverwaltung spielverwaltung;
-    private int aktpos = 1;
+    private int aktpos = 0;
     private String name;
     private int kontostand = 30000;
-
-
+    private int [] [] posArr;
     
     /**
      * Konstruktor für Objekte der Klasse Spielfigur
@@ -45,7 +44,7 @@ public class Spielfigur extends Actor
     }
     
     private void createArray(){
-        private int [] [] posArr = new int [40] [2];
+        posArr = new int [60] [2];
         posArr [0] [0] = 35;
         posArr [0] [1] = 710;
         posArr [1] [0] = 35;
@@ -87,49 +86,49 @@ public class Spielfigur extends Actor
         posArr [19] [1] = 40;
         posArr [19] [0] = 622;
         posArr [20] [1] = 48;
-        posArr [20] [0] = 699;
-        posArr [21] [1] = 48;
-        posArr [21] [0] = 701;
-        posArr [22] [1] = 128;
+        posArr [20] [0] = 701;
+        posArr [21] [1] = 128;
+        posArr [21] [0] = 710;
+        posArr [22] [1] = 190;
         posArr [22] [0] = 710;
-        posArr [23] [1] = 190;
+        posArr [23] [1] = 252;
         posArr [23] [0] = 710;
-        posArr [24] [1] = 252;
+        posArr [24] [1] = 314;
         posArr [24] [0] = 710;
-        posArr [25] [1] = 314;
+        posArr [25] [1] = 376;
         posArr [25] [0] = 710;
-        posArr [26] [1] = 376;
+        posArr [26] [1] = 438;
         posArr [26] [0] = 710;
-        posArr [27] [1] = 438;
+        posArr [27] [1] = 500;
         posArr [27] [0] = 710;
-        posArr [28] [1] = 500;
+        posArr [28] [1] = 562;
         posArr [28] [0] = 710;
-        posArr [29] [1] = 562;
-        posArr [29] [0] = 710;
-        posArr [30] [1] = 703;
-        posArr [30] [0] = 704;
+        posArr [29] [1] = 703;
+        posArr [29] [0] = 704;
+        posArr [30] [1] = 711;
+        posArr [30] [0] = 624;
         posArr [31] [1] = 711;
-        posArr [31] [0] = 624;
+        posArr [31] [0] = 562;
         posArr [32] [1] = 711;
-        posArr [32] [0] = 562;
+        posArr [32] [0] = 500;
         posArr [33] [1] = 711;
-        posArr [33] [0] = 500;
+        posArr [33] [0] = 438;
         posArr [34] [1] = 711;
-        posArr [34] [0] = 438;
+        posArr [34] [0] = 376;
         posArr [35] [1] = 711;
-        posArr [35] [0] = 376;
+        posArr [35] [0] = 314;
         posArr [36] [1] = 711;
-        posArr [36] [0] = 314;
+        posArr [36] [0] = 252;
         posArr [37] [1] = 711;
-        posArr [37] [0] = 252;
+        posArr [37] [0] = 190;
         posArr [38] [1] = 711;
-        posArr [38] [0] = 190;
+        posArr [38] [0] = 128;
         posArr [39] [1] = 711;
-        posArr [39] [0] = 130;
-    
+        posArr [39] [0] = 66;
+    }
     public void setPos(int newPos){
         aktpos = newPos;
-        setLocation(posArr[aktpos-1][0],posArr[aktpos-1][1]);
+        setLocation(posArr[aktpos][0],posArr[aktpos][1]);
         
 
         /**switch(aktpos){
@@ -263,8 +262,8 @@ public class Spielfigur extends Actor
                 setLocation(130,711);
                 break;
         }
-    **/
-    }
+        **/
+        }
     public int getPos(){
         return aktpos;
     }

@@ -1,19 +1,19 @@
 #BlueJ class context
 comment0.target=N\u00E4chsterSpieler
-comment0.text=\n\ Wechselt\ zum\ n\u00E4chsten\ Benutzer.\n\ \n\ @author\ \n\ @version\ \n
-comment1.params=bank
-comment1.target=N\u00E4chsterSpieler(Bank)
-comment1.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ N\u00E4chsterSpieler\n
+comment0.text=\r\n\ Wechselt\ zum\ n\u00E4chsten\ Benutzer.\r\n\ \r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=spielverwaltung
+comment1.target=N\u00E4chsterSpieler(Spielverwaltung)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ N\u00E4chsterSpieler\r\n
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\n\ Benachrichtigt\ die\ Bank\ dar\u00FCber,\ ob\ ein\ das\ N\u00E4chsterSpieler-Objekt\ angeklickt\ wurde\n
+comment2.text=\r\n\ Benachrichtigt\ die\ Spielverwaltung\ dar\u00FCber,\ ob\ ein\ das\ N\u00E4chsterSpieler-Objekt\ angeklickt\ wurde\r\n
 comment3.params=
 comment3.target=void\ block()
-comment3.text=\n\ Delegiert\ das\ Blockieren\ des\ N\u00E4chsterSpieler-Knopfes\ an\ die\ Klasse\ BlockDelegate\n
+comment3.text=\r\n\ Delegiert\ das\ Blockieren\ des\ N\u00E4chsterSpieler-Knopfes\ an\ die\ Klasse\ BlockDelegate\r\n
 comment4.params=
 comment4.target=void\ unblock()
-comment4.text=\n\ Delegiert\ das\ Entblockieren\ des\ N\u00E4chsterSpieler-Knopfes\ an\ die\ Klasse\ BlockDelegate\n
+comment4.text=\r\n\ Delegiert\ das\ Entblockieren\ des\ N\u00E4chsterSpieler-Knopfes\ an\ die\ Klasse\ BlockDelegate\r\n
 comment5.params=
 comment5.target=boolean\ istGeblockt()
-comment5.text=\n\ Bestimmt,\ ob\ das\ N\u00E4chsterSpieler-Objekt\ geblockt\ ist.\n\ @return\ Geblocktheit\ des\ N\u00E4chsterSpieler-Knopfes\n
+comment5.text=\r\n\ Bestimmt,\ ob\ das\ N\u00E4chsterSpieler-Objekt\ geblockt\ ist.\r\n\ @return\ Geblocktheit\ des\ N\u00E4chsterSpieler-Knopfes\r\n
 numComments=6
