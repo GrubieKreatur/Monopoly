@@ -44,7 +44,7 @@ public class Spielfigur extends Actor
     }
     
     private void createArray(){
-        posArr = new int [60] [2];
+        posArr = new int [40] [2];
         posArr [0] [0] = 35;
         posArr [0] [1] = 710;
         posArr [1] [0] = 35;
@@ -103,28 +103,28 @@ public class Spielfigur extends Actor
         posArr [27] [0] = 710;
         posArr [28] [1] = 562;
         posArr [28] [0] = 710;
-        posArr [29] [1] = 703;
-        posArr [29] [0] = 704;
-        posArr [30] [1] = 711;
-        posArr [30] [0] = 624;
+        posArr [29] [1] = 624;
+        posArr [29] [0] = 710;
+        posArr [30] [1] = 703;
+        posArr [30] [0] = 704;
         posArr [31] [1] = 711;
-        posArr [31] [0] = 562;
+        posArr [31] [0] = 624;
         posArr [32] [1] = 711;
-        posArr [32] [0] = 500;
+        posArr [32] [0] = 562;
         posArr [33] [1] = 711;
-        posArr [33] [0] = 438;
+        posArr [33] [0] = 500;
         posArr [34] [1] = 711;
-        posArr [34] [0] = 376;
+        posArr [34] [0] = 438;
         posArr [35] [1] = 711;
-        posArr [35] [0] = 314;
+        posArr [35] [0] = 376;
         posArr [36] [1] = 711;
-        posArr [36] [0] = 252;
+        posArr [36] [0] = 314;
         posArr [37] [1] = 711;
-        posArr [37] [0] = 190;
+        posArr [37] [0] = 252;
         posArr [38] [1] = 711;
-        posArr [38] [0] = 128;
+        posArr [38] [0] = 190;
         posArr [39] [1] = 711;
-        posArr [39] [0] = 66;
+        posArr [39] [0] = 128;
     }
     public void setPos(int newPos){
         aktpos = newPos;

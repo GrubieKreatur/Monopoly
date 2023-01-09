@@ -61,11 +61,13 @@ public class Spielverwaltung
         if (obj==wk) {
             würfeln();
             //wk.block();
-            currentSpieler.setPos(currentSpieler.getPos() + getAugenzahl());
             System.out.println(currentSpieler.getPos());
-            if(currentSpieler.getPos()>39){
-                currentSpieler.setPos(currentSpieler.getPos()-39);
+            int newPos;
+            newPos = currentSpieler.getPos() + getAugenzahl();
+            if(newPos>39){
+                newPos = newPos-40;
             }
+            currentSpieler.setPos(newPos);
         }
     }
 
