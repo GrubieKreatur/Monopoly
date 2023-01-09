@@ -13,15 +13,15 @@ public class Spielfigur extends Actor
     private int aktpos = 1;
     private String name;
     private int kontostand = 30000;
-    this.createArray();
+
 
     
     /**
      * Konstruktor für Objekte der Klasse Spielfigur
      */
-    public Spielfigur(Spielverwaltung spielverwaltung)
-    {
+    public Spielfigur(Spielverwaltung spielverwaltung){
         this.spielverwaltung = spielverwaltung;
+        createArray();
     }
     
     public int aktpos(){
