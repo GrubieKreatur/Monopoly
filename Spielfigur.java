@@ -129,7 +129,7 @@ public class Spielfigur extends Actor
     
     public void setPos(int newPos){
         aktpos = newPos;
-    
+        setLocation(posArr[aktpos-1][0],posArr[aktpos-1][1]);
         
 
         /**switch(aktpos){
