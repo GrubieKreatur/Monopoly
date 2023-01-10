@@ -1,4 +1,6 @@
 import greenfoot.*;
+import java.util.concurrent.TimeUnit;
+
 /**
  * Write a description of class Spielverwaltung here.
  * 
@@ -62,12 +64,20 @@ public class Spielverwaltung
             würfeln();
             //wk.block();
             System.out.println(currentSpieler.getPos());
-            int newPos;
-            newPos = currentSpieler.getPos() + getAugenzahl();
-            if(newPos>39){
-                newPos = newPos-40;
+
+            for (int i = 0; i<getAugenzahl();i++) {
+                int newPos;
+                newPos = currentSpieler.getPos() + 1;
+                if (newPos > 39) {
+                    newPos = newPos - 40;
+                }
+                currentSpieler.setPos(newPos);
+                try {
+                    TimeUnit.SECONDS.sleep(1);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
-            currentSpieler.setPos(newPos);
         }
     }
 
