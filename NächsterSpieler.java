@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
 /**
  * Wechselt zum nächsten Benutzer.
  * 
- * @author 
+ * @author Leo Gerl, Sven Schober, Jule Dannenberg, Lando Ambrus
  * @version 
  */
 public class NächsterSpieler extends Actor implements BlockTyp

@@ -2,8 +2,8 @@ import greenfoot.*;
 /**
  * Write a description of class Spielverwaltung here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Leo Gerl, Sven Schober, Jule Dannenberg, Lando Ambrus
+ * @version 2023-01-10
  */
 public class Spielverwaltung  
 {

@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Ergänzen Sie hier eine Beschreibung für die Klasse Spielfigur.
  * 
- * @author (Ihr Name) 
+ * @author Leo Gerl, Sven Schober, Jule Dannenberg, Lando Ambrus
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class Spielfigur extends Actor  

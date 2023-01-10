@@ -2,7 +2,7 @@ import greenfoot.*;
 /**
  * Ergänzen Sie hier eine Beschreibung für die Klasse Spielplan.
  * 
- * @author (Ihr Name) 
+ * @author Leo Gerl, Sven Schober, Jule Dannenberg, Lando Ambrus
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class Spielplan  

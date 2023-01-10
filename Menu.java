@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class Menu here.
  * 
- * @author (your name) 
+ * @author Leo Gerl, Sven Schober, Jule Dannenberg, Lando Ambrus
  * @version (a version number or a date)
  */
 public class Menu extends World

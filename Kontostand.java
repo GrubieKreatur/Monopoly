@@ -2,7 +2,7 @@ import greenfoot.*;
 /**
  * Ergänzen Sie hier eine Beschreibung für die Klasse Kontostand.
  * 
- * @author (Ihr Name) 
+ * @author Leo Gerl, Sven Schober, Jule Dannenberg, Lando Ambrus
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class Kontostand extends Actor

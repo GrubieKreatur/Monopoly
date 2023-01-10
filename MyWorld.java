@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot und MouseInfo)
 /**
  * Ergänzen Sie hier eine Beschreibung für die Klasse MyWorld.
  * 
- * @author (Ihr Name) 
+ * @author Leo Gerl, Sven Schober, Jule Dannenberg, Lando Ambrus
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class MyWorld extends World
