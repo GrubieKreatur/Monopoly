@@ -63,7 +63,6 @@ public class Spielverwaltung
         if (obj==wk) {
             würfeln();
             //wk.block();
-            System.out.println(currentSpieler.getPos());
 
             for (int i = 0; i<getAugenzahl();i++) {
                 int newPos;
