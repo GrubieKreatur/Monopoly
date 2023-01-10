@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=N\u00E4chsterSpieler
-comment0.text=\r\n\ Wechselt\ zum\ n\u00E4chsten\ Benutzer.\r\n\ \r\n\ @author\ \r\n\ @version\ \r\n
+comment0.text=\r\n\ Wechselt\ zum\ n\u00E4chsten\ Benutzer.\r\n\ \r\n\ @author\ Leo\ Gerl,\ Sven\ Schober,\ Jule\ Dannenberg,\ Lando\ Ambrus\r\n\ @version\ \r\n
 comment1.params=spielverwaltung
 comment1.target=N\u00E4chsterSpieler(Spielverwaltung)
 comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ N\u00E4chsterSpieler\r\n
