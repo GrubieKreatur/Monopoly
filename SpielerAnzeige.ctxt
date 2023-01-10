@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=SpielerAnzeige
-comment0.text=\r\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ SpielerAnzeige.\r\n\ \r\n\ @author\ Leo\ Gerl,\ Sven\ Schober,\ Jule\ Dannenberg,\ Lando\ Ambrus\r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment0.text=\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ SpielerAnzeige.\n\ \n\ @author\ Leo\ Gerl,\ Sven\ Schober,\ Jule\ Dannenberg,\ Lando\ Ambrus\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
 comment1.params=spielverwaltung
 comment1.target=SpielerAnzeige(Spielverwaltung)
-comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ SpielerAnzeige\r\n
+comment1.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ SpielerAnzeige\n
 comment2.params=name
 comment2.target=void\ updateSpieler(java.lang.String)
 numComments=3

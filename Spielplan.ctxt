@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Spielplan
-comment0.text=\r\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ Spielplan.\r\n\ \r\n\ @author\ Leo\ Gerl,\ Sven\ Schober,\ Jule\ Dannenberg,\ Lando\ Ambrus\r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment0.text=\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ Spielplan.\n\ \n\ @author\ Leo\ Gerl,\ Sven\ Schober,\ Jule\ Dannenberg,\ Lando\ Ambrus\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
 comment1.params=mw\ wf\ sf\ wk\ ks\ bz\ bau\ kauf\ sa\ ns
 comment1.target=Spielplan(MyWorld,\ W\u00FCrfel[],\ Spielfigur[],\ W\u00FCrfelKnopf,\ Kontostand,\ Bezahlen,\ Bauen,\ Kaufen,\ SpielerAnzeige,\ N\u00E4chsterSpieler)
-comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Spielplan\r\n
+comment1.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Spielplan\n
 numComments=2

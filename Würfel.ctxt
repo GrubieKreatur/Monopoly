@@ -1,15 +1,15 @@
 #BlueJ class context
 comment0.target=W\u00FCrfel
-comment0.text=\r\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ W\u00FCrfel.\r\n\ \r\n\ @author\ Leo\ Gerl,\ Sven\ Schober,\ Jule\ Dannenberg,\ Lando\ Ambrus\r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment0.text=\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ W\u00FCrfel.\n\ \n\ @author\ Leo\ Gerl,\ Sven\ Schober,\ Jule\ Dannenberg,\ Lando\ Ambrus\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ tut,\ was\ auch\ immer\ W\u00FCrfel\ tun\ will.\ Diese\ Methode\ wird\ aufgerufen,\ \r\n\ sobald\ der\ 'Act'\ oder\ 'Run'\ Button\ in\ der\ Umgebung\ angeklickt\ werden.\ \r\n
+comment1.text=\n\ Act\ -\ tut,\ was\ auch\ immer\ W\u00FCrfel\ tun\ will.\ Diese\ Methode\ wird\ aufgerufen,\ \n\ sobald\ der\ 'Act'\ oder\ 'Run'\ Button\ in\ der\ Umgebung\ angeklickt\ werden.\ \n
 comment2.params=
 comment2.target=void\ w\u00FCrfeln()
-comment2.text=\r\n\ W\u00FCrfelt\ die\ nicht-blockierten\ W\u00FCfelobjekte\r\n
+comment2.text=\n\ W\u00FCrfelt\ die\ nicht-blockierten\ W\u00FCfelobjekte\n
 comment3.params=
 comment3.target=int\ getAugenzahl()
-comment3.text=\r\n\ Bestimmt\ den\ Wert\ des\ W\u00FCrfelobjekts\r\n\ @return\ Wert\ des\ W\u00FCrfelobjekts\r\n
+comment3.text=\n\ Bestimmt\ den\ Wert\ des\ W\u00FCrfelobjekts\n\ @return\ Wert\ des\ W\u00FCrfelobjekts\n
 comment4.params=
 comment4.target=void\ updateBild()
 numComments=5

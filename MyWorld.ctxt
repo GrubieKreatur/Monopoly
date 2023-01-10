@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=MyWorld
-comment0.text=\r\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ MyWorld.\r\n\ \r\n\ @author\ Leo\ Gerl,\ Sven\ Schober,\ Jule\ Dannenberg,\ Lando\ Ambrus\r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment0.text=\n\ Erg\u00E4nzen\ Sie\ hier\ eine\ Beschreibung\ f\u00FCr\ die\ Klasse\ MyWorld.\n\ \n\ @author\ Leo\ Gerl,\ Sven\ Schober,\ Jule\ Dannenberg,\ Lando\ Ambrus\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
 comment1.params=
 comment1.target=MyWorld()
-comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ MyWorld\r\n\ \r\n
+comment1.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ MyWorld\n\ \n
 comment2.params=
 comment2.target=void\ prepare()
-comment2.text=\r\n\ Bereite\ die\ Welt\ f\u00FCr\ den\ Programmstart\ vor.\r\n\ Das\ hei\u00DFt\:\ Erzeuge\ die\ Anfangs-Objekte\ und\ f\u00FCge\ sie\ der\ Welt\ hinzu.\r\n
+comment2.text=\n\ Bereite\ die\ Welt\ f\u00FCr\ den\ Programmstart\ vor.\n\ Das\ hei\u00DFt\:\ Erzeuge\ die\ Anfangs-Objekte\ und\ f\u00FCge\ sie\ der\ Welt\ hinzu.\n
 numComments=3
