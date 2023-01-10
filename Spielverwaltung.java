@@ -63,20 +63,8 @@ public class Spielverwaltung
         if (obj==wk) {
             würfeln();
             //wk.block();
-
-            for (int i = 0; i<getAugenzahl();i++) {
-                int newPos;
-                newPos = currentSpieler.getPos() + 1;
-                if (newPos > 39) {
-                    newPos = newPos - 40;
-                }
-                currentSpieler.setPos(newPos);
-                try {
-                    TimeUnit.SECONDS.sleep(1);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
-            }
+            
+            currentSpieler.restBewegung(getAugenzahl());
         }
     }
 

@@ -14,6 +14,7 @@ public class Spielfigur extends Actor
     private String name;
     private int kontostand = 30000;
     private int [] [] posArr;
+    private int bewegung;
     
     /**
      * Konstruktor für Objekte der Klasse Spielfigur
@@ -21,6 +22,18 @@ public class Spielfigur extends Actor
     public Spielfigur(Spielverwaltung spielverwaltung){
         this.spielverwaltung = spielverwaltung;
         createArray();
+    }
+    
+    public void act() 
+    {
+        if(bewegung !=0){
+            setPos((aktpos +1)%40);
+            bewegung = bewegung -1;
+        }
+    }
+    
+    public void restBewegung(int anzahl){
+        this.bewegung = anzahl;
     }
     
     public int aktpos(){
