@@ -16,11 +16,15 @@ public class Menu extends World
     public Menu()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(900, 600, 1); 
         prepear();
     }
     
     public void prepear(){
+        Ueberschrift ueberschrift = new Ueberschrift();
+        this.addObject(ueberschrift, 450 , 100);
         
+        Datenschutz datenschutz = new Datenschutz();
+        this.addObject (datenschutz, 350,550);
     }
 }
