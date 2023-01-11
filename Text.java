@@ -20,7 +20,8 @@ public class Text extends Actor
     private String text ="None";
     public Text()
     {
-        bild = getImage();
+        bild = new GreenfootImage(text, 30, Color.BLACK, new Color(0, 0, 0, 0));
+        getImage().scale(100,100);
     }
 
     public Text(String text){
@@ -34,8 +35,13 @@ public class Text extends Actor
     public void anzeigen(String pText)
     {
         loeschen();
-        getImage().drawImage(new GreenfootImage(pText, 25, Color.BLACK, new Color(0, 0, 0, 0)),10,10);
+        getImage().drawImage(new GreenfootImage(pText, 30, Color.BLACK, new Color(0, 0, 0, 0)),100,100);
 
+    }
+
+    public void zeichen(String text){
+        getImage().drawImage(new GreenfootImage(text, 30, Color.BLACK, new Color(0, 0, 0, 0)),100,100);
+        getImage().drawString​(text,10,10);
     }
 
     public void loeschen()

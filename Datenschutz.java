@@ -17,6 +17,5 @@ public class Datenschutz extends Actor
         // Add your action code here.
     }
      public Datenschutz(){
-        System.out.print("Datenschutz erschaffen");
     }
 }
