@@ -21,7 +21,6 @@ public class Text extends Actor {
     public int height = 10;
     public int width = 30;
 
-    // Test
     public Text() {
         loeschen();
         getImage().scale(width * 2, height * 2);
