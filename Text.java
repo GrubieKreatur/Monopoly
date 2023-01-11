@@ -1,3 +1,5 @@
+import javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction;
+
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
@@ -16,35 +18,64 @@ public class Text extends Actor
     {
         // Add your action code here.
     }
-    private GreenfootImage bild; 
     private String text ="None";
+    private int height =30;
+    private int width= 30;
+
     public Text()
     {
-        bild = new GreenfootImage(text, 30, Color.BLACK, new Color(0, 0, 0, 0));
-        getImage().scale(100,100);
+        loeschen();
+        getImage().scale(width*2,height*2);
+        getImage().drawString​(text,width,height);
     }
 
-    public Text(String text){
-        anzeigen(text);
+    public Text(String ptext){
+        text=ptext;
+        loeschen();
+        getImage().scale(width*2,height*2);
+        getImage().drawString​(text,width,height);
+
+    }
+    
+    /**
+     * Ändert die Masse vom Bild 
+     * 
+     * @param width
+     * @param height
+     */
+    public void setScale(int newwidth, int newheight){
+        height = newheight;
+        width = newwidth;
+        loeschen();
+        getImage().scale(width*2,height*2);
+        setNewText(text);
+    }
+
+    public void setNewText(String ptext){
+        text = ptext;
+        getImage().drawString​(text,width,height);
+    }
+
+    public void setAllNew(String ptext, int newwidth,int newheight){
+        
+        width=newwidth;
+        height=newheight;
+        loeschen();
+        getImage().scale(width*2,height*2);
+        getImage().drawString​(text,width,height);
+        text =ptext;
+        setNewText(text);
+        
     }
 
     public void Position(int x,int y )
     {
         setLocation(x,y);
     }
-    public void anzeigen(String pText)
-    {
-        loeschen();
-        getImage().drawImage(new GreenfootImage(pText, 30, Color.BLACK, new Color(0, 0, 0, 0)),100,100);
 
-    }
+    
 
-    public void zeichen(String text){
-        getImage().drawImage(new GreenfootImage(text, 30, Color.BLACK, new Color(0, 0, 0, 0)),100,100);
-        getImage().drawString​(text,10,10);
-    }
-
-    public void loeschen()
+    private void loeschen()
     {
         getImage().clear();
     }
