@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TextKnopf
+comment0.text=\n\ Write\ a\ description\ of\ class\ TextKnopf\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ TextKnopf\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=TextKnopf()
+comment3.params=newwidth\ newheight
+comment3.target=void\ setScale(int,\ int)
+comment4.params=
+comment4.target=void\ setBackground()
+numComments=5

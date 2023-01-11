@@ -18,9 +18,9 @@ public class Text extends Actor
     {
         // Add your action code here.
     }
-    private String text ="None";
-    private int height =30;
-    private int width= 30;
+    public String text ="None";
+    public int height =10;
+    public int width= 30;
 
     public Text()
     {
@@ -75,7 +75,7 @@ public class Text extends Actor
 
     
 
-    private void loeschen()
+    public void loeschen()
     {
         getImage().clear();
     }
