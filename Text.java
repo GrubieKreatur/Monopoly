@@ -23,6 +23,10 @@ public class Text extends Actor
         bild = getImage();
     }
 
+    public Text(String text){
+        anzeigen(text);
+    }
+
     public void Position(int x,int y )
     {
         setLocation(x,y);
